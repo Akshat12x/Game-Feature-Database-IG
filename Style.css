@@ -1,5 +1,5 @@
 .dropbtn {
-  background-color: #9acb56;
+  background-color: #ED4D4F;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -30,11 +30,107 @@
     display: block;
 }
 .dropdown:hover .dropbtn {
-    background-color: #b9ca58;
+    background-color: #ED4D4F;
 }
 
 
 table, th, td {
+    padding: 10px;
+    margin: 5px;
   border: 1px solid;
-  width: 100%;
+  width: 60%;
 }
+
+
+
+
+
+
+.plus-navigation-menu .nav>li ul.dropdown-menu {
+    left: 0;
+}
+
+.plus-navigation-menu .nav>li {
+    border-left: solid 0.5px #ED4D4F;
+}
+
+.plus-navigation-menu .nav>li:hover {
+	background: #ED4D4F;
+	color: #fff !Important;
+} 
+
+li#menu-item-703 .plus-navigation-menu .navbar-nav>li>a:hover {
+	color: #fff !Important;	
+}
+
+.current-menu-item {
+    background: #ED4D4F;
+}
+
+li.current_page_item > a {
+    color: #fff !important;
+	  font-weight: 700 !important;
+}
+
+.dropdown-menu > li {
+	border-bottom: 1px solid #ED4D4F;
+}
+
+li#menu-item-743 {
+    background: #fff;
+}
+
+li#menu-item-743 {
+    background: #fff;
+}
+
+li#menu-item-743 a{
+    color: #ED4D4F !Important;
+	  font-weight: 700;
+}
+
+
+li#menu-item-743:hover {
+    background: #ED4D4F;
+}
+
+li#menu-item-743 a:hover{
+    color: #fff !Important;
+}
+
+.plus-navigation-menu .nav>li>a:hover {
+	color: #fff !Important;
+} 
+
+
+
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ED4D4F;
+  color: white;
+}
+
+
+
